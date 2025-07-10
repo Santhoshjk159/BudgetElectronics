@@ -22,7 +22,12 @@ if (process.env.NODE_ENV === 'production') {
   });
 }
 
-app.listen(PORT, () => {
-  console.log(`🚀 Server running on port ${PORT}`);
-  console.log(`📡 API available at http://localhost:${PORT}/api/components`);
-});
+// For Vercel serverless functions
+if (process.env.VERCEL) {
+  module.exports = app;
+} else {
+  app.listen(PORT, () => {
+    console.log(`🚀 Server running on port ${PORT}`);
+    console.log(`📡 API available at http://localhost:${PORT}/api/components`);
+  });
+}
