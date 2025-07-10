@@ -7,6 +7,7 @@ import FilterDropdown from './components/FilterDropdown';
 import Card from './components/Card';
 import LoadingShimmer from './components/LoadingShimmer';
 import EmptyState from './components/EmptyState';
+import { componentsData, categories } from '../data/components';
 
 function App() {
   const [components, setComponents] = useState([]);
@@ -22,25 +23,15 @@ function App() {
     return false;
   });
 
-  // Fetch components from API
-  const fetchComponents = async () => {
-    setLoading(true);
-    try {
-      const response = await fetch('/api/components');
-      const result = await response.json();
-      if (result.success) {
-        setComponents(result.data);
-        setFilteredComponents(result.data);
-      }
-    } catch (error) {
-      console.error('Error fetching components:', error);
-    } finally {
-      setLoading(false);
-    }
-  };
-
+  // Load components from local data
   useEffect(() => {
-    fetchComponents();
+    setLoading(true);
+    // Simulate loading for smooth UX
+    setTimeout(() => {
+      setComponents(componentsData);
+      setFilteredComponents(componentsData);
+      setLoading(false);
+    }, 800);
   }, []);
 
   // Handle dark mode
@@ -88,13 +79,20 @@ function App() {
     window.scrollTo({ top: 0, behavior: 'smooth' });
   };
 
-  const categories = ['All', ...new Set(components.map((comp) => comp.category))];
+  const refreshData = () => {
+    setLoading(true);
+    setTimeout(() => {
+      setComponents(componentsData);
+      setFilteredComponents(componentsData);
+      setLoading(false);
+    }, 500);
+  };
 
   return (
     <div className={`min-h-screen transition-colors duration-300 ${
       darkMode ? 'dark bg-gray-900' : 'bg-gray-50'
     }`}>
-      <Navbar darkMode={darkMode} setDarkMode={setDarkMode} onRefresh={fetchComponents} />
+      <Navbar darkMode={darkMode} setDarkMode={setDarkMode} onRefresh={refreshData} />
       
       <main className="container mx-auto px-4 py-8">
         {/* Header */}
