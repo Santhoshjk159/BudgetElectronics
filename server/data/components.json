@@ -1,0 +1,202 @@
+[
+  {
+    "id": 1,
+    "title": "Electronics Component Fun Kit",
+    "description": "Power Module, Jumper Wires, Breadboard, Potentiometer, Resistors",
+    "price": 12.62,
+    "buyUrl": "https://amazon.com/dp/B073ZC68QG",
+    "category": "Electronics",
+    "icon": "🔌",
+    "image": "https://m.media-amazon.com/images/I/71SmoH5utjL._AC_UY218_.jpg"
+  },
+  {
+    "id": 2,
+    "title": "ELEGOO 37-in-1 Sensor Modules Kit",
+    "description": "Sensors with Tutorial, Compatible with Arduino IDE UNO R3 MEGA Nano",
+    "price": 29.59,
+    "buyUrl": "https://amazon.com/dp/B01MG49ZQ5",
+    "category": "Electronics",
+    "icon": "📦",
+    "image": "https://m.media-amazon.com/images/I/91Uvci0R0YL._AC_UY218_.jpg"
+  },
+  {
+    "id": 3,
+    "title": "Breadboard Kit with Jumpers",
+    "description": "2x830, 2x400, 2x170 Boards + 140 Jumpers for Arduino, STEM",
+    "price": 7.99,
+    "buyUrl": "https://amazon.com/dp/B0F38JPSP1",
+    "category": "Electronics",
+    "icon": "🔌",
+    "image": "https://m.media-amazon.com/images/I/81+iG2+f2tL._AC_UY218_.jpg"
+  },
+  {
+    "id": 4,
+    "title": "Solderless Breadboard Ultimate Kit",
+    "description": "4PCS Boards + 130 Jumper Wires - ABS Plastic, Tin-Plated Contacts",
+    "price": 6.99,
+    "buyUrl": "https://amazon.com/dp/B0F2HW479J",
+    "category": "Electronics",
+    "icon": "🧰",
+    "image": "https://m.media-amazon.com/images/I/71ggz4FThML._AC_UY218_.jpg"
+  },
+  {
+    "id": 5,
+    "title": "Breadboard Kit + 9V Adapter",
+    "description": "830, 400, 3x170 Boards, 65 Wires for Arduino, IoT & STEM",
+    "price": 4.99,
+    "buyUrl": "https://amazon.com/dp/B0F91MM6Z8",
+    "category": "Electronics",
+    "icon": "🔋",
+    "image": "https://m.media-amazon.com/images/I/81BMKhVT2GL._AC_UY218_.jpg"
+  },
+  {
+    "id": 6,
+    "title": "Double Sided PCB Board Kit",
+    "description": "32 Pcs with 5 Sizes for DIY Soldering, Compatible with Arduino",
+    "price": 7.99,
+    "buyUrl": "https://amazon.com/dp/B072Z7Y19F",
+    "category": "Electronics",
+    "icon": "🧾",
+    "image": "https://m.media-amazon.com/images/I/91CFz+95qiL._AC_UY218_.jpg"
+  },
+  {
+    "id": 7,
+    "title": "KEYESTUDIO IoT Smart Farm Kit",
+    "description": "For Arduino ESP32, DIY Sensors, STEM Kit for Adults & Teens",
+    "price": 52.0,
+    "buyUrl": "https://amazon.com/dp/B0CM35TJ3S",
+    "category": "IoT",
+    "icon": "🌾",
+    "image": "https://m.media-amazon.com/images/I/71+xBUgi8dL._AC_UY218_.jpg"
+  },
+  {
+    "id": 8,
+    "title": "ELEGOO UNO R3 Starter Kit",
+    "description": "200+ Components, Most Complete Kit with Tutorials for Arduino IDE",
+    "price": 47.98,
+    "buyUrl": "https://amazon.com/dp/B01CZTLHGE",
+    "category": "Electronics",
+    "icon": "🧠",
+    "image": "https://m.media-amazon.com/images/I/81a-MDAmb8L._AC_UY218_.jpg"
+  },
+  {
+    "id": 9,
+    "title": "OSOYOO IoT Smart Home Kit",
+    "description": "IoT Learning Kit with Arduino Mega2560 - Mechanical Building",
+    "price": 69.64,
+    "buyUrl": "https://amazon.com/dp/B081483YVM",
+    "category": "IoT",
+    "icon": "🏠",
+    "image": "https://m.media-amazon.com/images/I/816tOhl+3pL._AC_UY218_.jpg"
+  },
+  {
+    "id": 10,
+    "title": "ESP8266 NodeMCU WiFi Board (2 Pack)",
+    "description": "USB Type-C, CH340, Compatible with Arduino IDE",
+    "price": 9.99,
+    "buyUrl": "https://amazon.com/dp/B0DRBHVRCV",
+    "category": "IoT",
+    "icon": "📡",
+    "image": "https://m.media-amazon.com/images/I/71eAusW8dLL._AC_UY218_.jpg"
+  },
+  {
+    "id": 11,
+    "title": "Freenove Starter Kit for Raspberry Pi",
+    "description": "962-Page Tutorial, 128 Projects, 223 Items (Pi not included)",
+    "price": 39.96,
+    "buyUrl": "https://amazon.com/dp/B06W54L7B5",
+    "category": "Electronics",
+    "icon": "🐍",
+    "image": "https://m.media-amazon.com/images/I/81UOIEuN52L._AC_UY218_.jpg"
+  },
+  {
+    "id": 12,
+    "title": "NRF905 Wireless Module (5pcs)",
+    "description": "433/868/915MHz, +10dBm Output - Low Power IoT Transceivers",
+    "price": 22.99,
+    "buyUrl": "https://amazon.com/dp/B0F3MZY7J8",
+    "category": "IoT",
+    "icon": "📶",
+    "image": "https://m.media-amazon.com/images/I/71xUQc2s3HL._AC_UY218_.jpg"
+  },
+  {
+    "id": 13,
+    "title": "Smart Agriculture Kit - ELECFREAKS",
+    "description": "micro:bit Sensor Kit, Octopus Series, Basic STEM DIY",
+    "price": 59.9,
+    "buyUrl": "https://amazon.com/dp/B0C5ZZCHWQ",
+    "category": "IoT",
+    "icon": "🌱",
+    "image": "https://m.media-amazon.com/images/I/719dNOL5KKL._AC_UY218_.jpg"
+  },
+  {
+    "id": 14,
+    "title": "Sipeed M1s Dock AI+IoT Dev Board",
+    "description": "BL808 RISC-V - AI and IoT Combined Development Board",
+    "price": 14.97,
+    "buyUrl": "https://amazon.com/dp/B0D2TTCYDM",
+    "category": "IoT",
+    "icon": "🧠",
+    "image": "https://m.media-amazon.com/images/I/51BkEfjrS3L._AC_UY218_.jpg"
+  },
+  {
+    "id": 15,
+    "title": "ESP8266 Weather Clock Kit",
+    "description": "DIY IoT Clock - Temp, Humidity Display - Soldering Kit",
+    "price": 23.99,
+    "buyUrl": "https://amazon.com/dp/B0F5NN3F7K",
+    "category": "IoT",
+    "icon": "⏰",
+    "image": "https://m.media-amazon.com/images/I/51LAi93YFRL._AC_UY218_.jpg"
+  },
+  {
+    "id": 16,
+    "title": "Chanzon Breadboard Kit (3pcs)",
+    "description": "830 Tie Points, 2 Power Rails - Arduino, Pi, DIY Compatible",
+    "price": 7.99,
+    "buyUrl": "https://amazon.com/dp/B07LF95D2R",
+    "category": "Electronics",
+    "icon": "🧩",
+    "image": "https://m.media-amazon.com/images/I/71GPWkTsx4L._AC_UY218_.jpg"
+  },
+  {
+    "id": 17,
+    "title": "Seeed Studio XIAO ESP32C6",
+    "description": "WiFi 6, Bluetooth 5.3, Zigbee, Thread, AWS IoT, Azure - Smart Home",
+    "price": 10.19,
+    "buyUrl": "https://amazon.com/dp/B0D2NKVB34",
+    "category": "IoT",
+    "icon": "📶",
+    "image": "https://m.media-amazon.com/images/I/61jbprRXYVL._AC_UY218_.jpg"
+  },
+  {
+    "id": 18,
+    "title": "Arduino Nano 33 IoT",
+    "description": "WiFi & Bluetooth, 32-bit ARM, 256KB Flash, Secure Element",
+    "price": 22.41,
+    "buyUrl": "https://amazon.com/dp/B07VW9TSKD",
+    "category": "IoT",
+    "icon": "🔧",
+    "image": "https://m.media-amazon.com/images/I/51Uhh2bmDXL._AC_UY218_.jpg"
+  },
+  {
+    "id": 19,
+    "title": "Arduino Nano 33 IoT (With Headers)",
+    "description": "ABX00032 Version, For Secure Connected Projects",
+    "price": 23.31,
+    "buyUrl": "https://amazon.com/dp/B07WPFQZQ1",
+    "category": "IoT",
+    "icon": "📟",
+    "image": "https://m.media-amazon.com/images/I/61gB2y0-y9L._AC_UY218_.jpg"
+  },
+  {
+    "id": 20,
+    "title": "Iot Relay - Enclosed High-power Relay",
+    "description": "For Arduino, Raspberry Pi, WiFi, Relay Shield Applications",
+    "price": 36.25,
+    "buyUrl": "https://amazon.com/dp/B00WV7GMA2",
+    "category": "IoT",
+    "icon": "🔌",
+    "image": "https://m.media-amazon.com/images/I/31d3DLX1ubL._AC_UY218_.jpg"
+  }
+]
