@@ -37,28 +37,6 @@ Fonts: Google Fonts (Poppins)
 Hosting: Vercel (Free Tier)  
 Data: Local JSON (no backend)
 
-## 📂 Project Structure
-
-budget-electronics-2025/  
-├── public/  
-│   └── favicon.svg  
-├── src/  
-│   ├── components/  
-│   │   ├── Card.jsx  
-│   │   ├── Navbar.jsx  
-│   │   ├── SearchBar.jsx  
-│   │   ├── FilterDropdown.jsx  
-│   │   ├── LoadingShimmer.jsx  
-│   │   └── EmptyState.jsx  
-│   ├── data/  
-│   │   └── components.json  
-│   ├── App.jsx  
-│   ├── main.jsx  
-│   └── index.css  
-├── tailwind.config.js  
-├── vite.config.js  
-├── package.json  
-└── README.md
 
 ## 🚀 Getting Started
 
